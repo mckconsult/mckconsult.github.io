@@ -325,7 +325,7 @@ hr {
 
  #footer {
  	background: #333333;
- 	height: 290px;
+ 	height: 350px;
  	padding: 30px;
  	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -368,8 +368,15 @@ hr {
 }
 
 #metrics {
-	position: absolute;
 	bottom: 25px;
 	right: 30px;
 }
 
+#counters {
+	width: 100%;
+	clear: both;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px;
+}
