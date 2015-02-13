@@ -194,17 +194,7 @@ header {
 	width: 70%;
 	height: 100%;
 	background: yellow;
-	/*background: url(../images/business-561387_1280.jpg);*/
-	/*background: url(../images/building-588284_1280.jpg) center center no-repeat;*/
-	/*background: url(../images/panorama-433610_1280.jpg) center center no-repeat;*/
-	/*background: url(../images/7949455474_cdd43ac6e9_h.jpg) center center no-repeat;*/
-	/*background: url(../images/shanghai-580224_1280.jpg) center center no-repeat;*/
-	/*background: url(../images/shanghai-456761_1280.jpg) center center no-repeat;*/
 	background: url(../images/shanghai-397147_1280.jpg) center center no-repeat;
-	/*background: url(../images/4732566607_ffb6c5a930_b.jpg) center center no-repeat;*/
-	/*background: url(../images/semi-trailers-534577_1280.jpg) center center no-repeat;*/
-	/*background: url(../images/truck-602567_1280.jpg) center center no-repeat;*/
-	/*background: url(../images/shipping-116610_1280.jpg) center center no-repeat;*/
 	-webkit-background-size: cover;
  	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -325,7 +315,7 @@ hr {
 
  #footer {
  	background: #333333;
- 	height: 350px;
+ 	height: 320px;
  	padding: 30px;
  	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
