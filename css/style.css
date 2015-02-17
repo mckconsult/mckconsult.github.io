@@ -370,3 +370,11 @@ hr {
 	box-sizing: border-box;
 	padding: 10px;
 }
+
+p a {
+	color: #333;
+}
+
+p a:hover {
+	color: #6372CD;
+};
