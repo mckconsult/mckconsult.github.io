@@ -388,6 +388,12 @@ p a:hover {
 .contact_form p {
 	margin:7px 10px 7px 10px;
 	padding:0px;
+	text-align: center;
+}
+.title-form {
+	color: #05B68C;
+        font-size: 22px;
+        text-transform: uppercase;
 }
 
 /* === Размер и расположение блоков === */
@@ -404,7 +410,7 @@ p a:hover {
 	padding:5px 8px;
 }
 .contact_form textarea {padding:8px; width:300px;}
-.contact_form button {margin-left:156px;}
+.contact_form button {}
 
 	/* Цвета и эффекты */
 	.contact_form input, .contact_form textarea { 
