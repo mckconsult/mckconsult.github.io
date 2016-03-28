@@ -2,7 +2,7 @@
 
 /* Задаем переменные */
 $name = htmlspecialchars($_POST["name"]);
-/* $email = htmlspecialchars($_POST["email"]); */
+$email = htmlspecialchars($_POST["email"]);
 $tel = htmlspecialchars($_POST["tel"]);
 /* $website = htmlspecialchars($_POST["website"]); */
 $message = htmlspecialchars($_POST["message"]);
@@ -14,7 +14,8 @@ $sub = "Сообщение с сайта mckconsult.ru";
 
 /* Формат письма */
 $mes = "Сообщение с сайта mckconsult.\n
-Имя отправителя: $name 
+Имя отправителя: $name
+E-mail: $email
 Телефон отправителя: $tel
 Текст сообщения: $message";
 
