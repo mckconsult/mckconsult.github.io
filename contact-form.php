@@ -1,12 +1,12 @@
 <?php
 
 /* Задаем переменные */
-$name = htmlspecialchars($_POST["name"]);
-$email = htmlspecialchars($_POST["email"]);
-$tel = htmlspecialchars($_POST["tel"]);
-/* $website = htmlspecialchars($_POST["website"]); */
-$message = htmlspecialchars($_POST["message"]);
-$bezspama = htmlspecialchars($_POST["bezspama"]);
+$name = htmlspecialchars($_POST["name"], ENT_COMPAT, 'cp1251');
+$email = htmlspecialchars($_POST["email"], ENT_COMPAT, 'cp1251');
+$tel = htmlspecialchars($_POST["tel"], ENT_COMPAT, 'cp1251');
+/* $website = htmlspecialchars($_POST["website"], ENT_COMPAT, 'cp1251'); */
+$message = htmlspecialchars($_POST["message"], ENT_COMPAT, 'cp1251');
+$bezspama = htmlspecialchars($_POST["bezspama"], ENT_COMPAT, 'cp1251');
 
 /* Ваш адрес и тема сообщения */
 $address = "vizitka36@mail.ru";
