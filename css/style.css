@@ -381,7 +381,7 @@ p a:hover {
 
 
 .contact_form {
-		width:700px;
+	
 	}
 
 /* === Ширина формы === */
@@ -412,20 +412,20 @@ p a:hover {
 		box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
 		border-radius:2px;
 		padding-right:30px;
-		-moz-transition: padding .25s; 
+		/*-moz-transition: padding .25s; 
 		-webkit-transition: padding .25s; 
 		-o-transition: padding .25s;
-		transition: padding .25s;
+		transition: padding .25s;*/
 	}
-	.contact_form input:focus, .contact_form textarea:focus {
+	/*.contact_form input:focus, .contact_form textarea:focus {
 		background: #fff; 
 		border:1px solid #555; 
 		box-shadow: 0 0 3px #aaa; 
 		padding-right:70px;
-	}
+	}*/
 
 /* === HTML5  === */	
-.contact_form input:required, .contact_form textarea:required {
+/*.contact_form input:required, .contact_form textarea:required {
 	background: #fff no-repeat 98% center;
 }
 .contact_form input:required:valid, .contact_form textarea:required:valid {
@@ -437,7 +437,7 @@ p a:hover {
 	background: #fff no-repeat 98% center;
 	box-shadow: 0 0 5px #d45252;
 	border-color: #b03535
-}
+}*/
 
 /* === Стили подсказок === */
 .form_hint {
