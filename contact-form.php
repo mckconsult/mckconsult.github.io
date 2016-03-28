@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 /* Задаем переменные */
 $name = htmlspecialchars($_POST["name"]);
@@ -9,7 +9,7 @@ $message = htmlspecialchars($_POST["message"]);
 $bezspama = htmlspecialchars($_POST["bezspama"]);
 
 /* Ваш адрес и тема сообщения */
-$address = "pochta@kakoy-to-sajt.com";
+$address = "vizitka36@mail.ru";
 $sub = "Сообщение с сайта mckconsult.ru";
 
 /* Формат письма */
