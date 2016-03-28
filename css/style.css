@@ -395,6 +395,10 @@ p a:hover {
         font-size: 22px;
         text-transform: uppercase;
 }
+.sub-title {
+    font-size: 14px;
+    color: #7F7F7F;
+}
 
 /* === Размер и расположение блоков === */
 .contact_form label {
