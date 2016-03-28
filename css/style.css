@@ -425,7 +425,7 @@ p a:hover {
 	}*/
 
 /* === HTML5  === */	
-/*.contact_form input:required, .contact_form textarea:required {
+.contact_form input:required, .contact_form textarea:required {
 	background: #fff no-repeat 98% center;
 }
 .contact_form input:required:valid, .contact_form textarea:required:valid {
@@ -437,7 +437,7 @@ p a:hover {
 	background: #fff no-repeat 98% center;
 	box-shadow: 0 0 5px #d45252;
 	border-color: #b03535
-}*/
+}
 
 /* === Стили подсказок === */
 .form_hint {
