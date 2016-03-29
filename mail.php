@@ -17,7 +17,7 @@
       $mail = trim(strip_tags($_POST['mail']));
       $message = trim(strip_tags($_POST['message']));
  
-      mail('почта_для_получения_сообщений@gmail.com', 'Письмо с адрес_вашего_сайта', 
+      mail('visitka36@mail.com', 'Заказ звонка', 
       'Вам написал: '.$name.'<br />Его номер: '.$phone.'<br />Его почта: '.$mail.'<br />
       Его сообщение: '.$message,"Content-type:text/html;charset=windows-1251");
  
